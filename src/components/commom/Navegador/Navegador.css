@@ -1,0 +1,79 @@
+.navegador {
+    background-color: rgb(47, 185, 100);
+    display: flex;
+    position: absolute;
+   
+   
+    top: 0%;
+    
+
+
+
+}
+.navegador .link-navegador{
+    display: block;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+
+}
+.navegador .link-navegador:hover{
+   
+    background-color: rgb(57, 224, 169);
+
+
+}
+.right{
+
+  margin-left: 320px;
+  float: right;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 100;
+    padding: 50;
+    overflow: hidden;
+    background-color: rgb(18, 87, 27);
+
+  }
+
+  li {
+    float: left;
+    border-right:100px;
+    border-left:1000px;
+
+    padding: 16px 8px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+  }
+
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  li:last-child {
+    border-right: none;
+  }
+
+  
+
+
+
+
+  .active {
+    background-color: #04AA6D;
+  }
+  .navegador .link-navegador.active{
+    background-color: #7eaa04;
+
+  }

@@ -1,0 +1,145 @@
+.fundo-azul{
+    background-color: blue;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    background-color: aqua;
+
+}
+.cabecalho .pagina-atual{
+    margin-right: 2px;
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 10px;
+    
+
+
+}
+.buttonPost{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-left: 270px;
+    
+
+
+}
+.button:active{
+    transform: scale(0.98);
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    width: 700px;
+
+    margin: 100px;
+    display: flex;
+ 
+ 
+    border: 3px solid green;
+
+    position: relative;
+    
+    height: 250px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.card .titulo-card{
+    align-items:flex-start;
+    display: inline-block;
+	position: relative;
+	font-size: 30px;
+	color: #344055;
+	margin: 10px;
+    text-align: left;
+
+}
+.card .conteudo{
+        align-items:flex-start;
+    display: inline-block;
+	position: relative;
+	font-size: 30px;
+	color: #344055;
+	margin: 0;
+    text-align-last: center;
+    margin-left: 10px;
+}
+.card .comentario{
+align-items:flex-start;
+display: inline-block;
+position: relative;
+font-size: 30px;
+color: #344055;
+margin: 10px;
+text-align-last: center;
+margin-left: 175px;
+}
+.card .comentarioPost{
+    align-items:flex-start;
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    color: #344055;
+    margin: 40px;
+    text-align-last: center;
+    margin-left: 50px;
+    }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #131313;
+    margin-right: 150px;
+    
+  }
+  
+
+.conteudo-post{
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    
+    align-self: center;
+
+}
+.conteudo-like{
+    flex-wrap: wrap;
+
+    text-align: center;
+  
+    
+}
